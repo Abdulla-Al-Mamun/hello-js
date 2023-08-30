@@ -4,7 +4,7 @@
 
 var friends = ['rony', 'ovi', 'niloy', 'siam', 'mahmud'];
 
-for (var i = 0; i <= friends.length; i++) {
+for (var i = 0; i < friends.length; i++) {
 
     var friend = friends[i];
     console.log(friend);
