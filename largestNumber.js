@@ -1,5 +1,5 @@
 var number1 = 12;
-var number2 = 79;
+var number2 = 100;
 var number3 = 100;
 
 // if (number1 > number2 || number1 > number3) {
