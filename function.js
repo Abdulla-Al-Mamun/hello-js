@@ -3,10 +3,24 @@
 //     console.log(maney)
 // }
 // bringsingara(200);
+// ..................................
 
-function sum(a, b, c, d) {
-    var sum = a + b + c + d;
-    console.log(sum);
+
+// function sum(a, b, c, d) {
+//     var sum = a + b + c + d;
+//     console.log(sum);
+// }
+
+// sum(10, 20, 30, 40);
+
+// ........
+
+function bringsingara(maney) {
+    var singaraPrice = 10;
+    var quntity = maney / singaraPrice
+    return quntity;
+
 }
 
-sum(10, 200, 30, 40);
+var singara = bringsingara(200);
+console.log(singara);
