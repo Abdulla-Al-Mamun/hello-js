@@ -30,8 +30,15 @@
 
 
 
-function squareIt(number) {
-    return number ** 2;
-}
+// function squareIt(number) {
+//     return number ** 2;
+// }
 
-console.log(squareIt(5));
+// console.log(squareIt(5));
+
+
+
+// .............
+
+
+
