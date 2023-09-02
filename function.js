@@ -15,12 +15,23 @@
 
 // ........
 
-function bringsingara(maney) {
-    var singaraPrice = 10;
-    var quntity = maney / singaraPrice
-    return quntity;
+// function bringsingara(maney) {
+//     var singaraPrice = 10;
+//     var quntity = maney / singaraPrice
+//     return quntity;
 
+// }
+
+// var singara = bringsingara(200);
+// console.log(singara);
+
+
+// .............
+
+
+
+function squareIt(number) {
+    return number ** 2;
 }
 
-var singara = bringsingara(200);
-console.log(singara);
+console.log(squareIt(5));
