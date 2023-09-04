@@ -10,7 +10,23 @@ function getSumOfArray(numbers) {
     return sum;
 }
 
+function getOddOfArray(numbers) {
+    // console.log(numbers);
+    const oddArray = [];
+    for (let i = 0; i < numbers.length; i++) {
+        const index = i;
+        const element = numbers[index];
+        if (element % 2 === 0) {
+            // console.log(element);
+            oddArray.push(element);
+        }
+    }
+    return oddArray;
+}
 
-const myNumbers = [10, 20, 30, 40, 50, 60];
-const total = getSumOfArray(myNumbers);
-console.log(total);
+const myNumbers = [10, 20, 33, 40, 55, 60];
+// const total = getSumOfArray(myNumbers);
+const oddNumber = getOddOfArray(myNumbers);
+// console.log(oddNumber);
+const sumOdd = getSumOfArray(oddNumber);
+console.log(sumOdd);
