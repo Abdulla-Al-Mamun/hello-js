@@ -10,3 +10,15 @@ else {
     console.log('exists not inside the string');
 
 }
+console.log('exists not inside the string');
+/*
+split
+slice
+substr
+substring 
+concat
+destruction
+Sweep 
+swap without temp
+destructing
+*/
