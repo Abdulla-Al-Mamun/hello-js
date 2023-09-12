@@ -15,3 +15,4 @@ function hightNumberInArray(numbers) {
 const heights = [155, 160, 125, 185, 256];
 const tallest = hightNumberInArray(heights);
 console.log(tallest);
+console.log(tallest); console.log(tallest); console.log(tallest);
