@@ -8,4 +8,4 @@ function isJavaScriptFile(string) {
     }
 }
 const result = isJavaScriptFile("hello.js");
-console.log(result);
+console.log(result); 
